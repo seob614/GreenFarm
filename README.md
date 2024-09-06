@@ -18,7 +18,10 @@ QR코드를 통해 예약한 부스를 간단하게 체험하세요.
 ### 플레이스토어: 업데이트 부재로 플레이스토어에서 삭제
 ***
 ### 메인화면
+![메인이미지](https://github.com/user-attachments/assets/40321f2e-304e-4fb6-ad8d-d2f8e415d411)
 
 ### 부스정보화면
+![부스이미지](https://github.com/user-attachments/assets/4aa1eda1-691a-4913-b03d-2de91b7ae92d)
 
 ### QR코드확인화면
+![QR코드 실행](https://github.com/user-attachments/assets/ef8c3bd2-f466-4d5d-8c47-3c5f9d3e0e58)
