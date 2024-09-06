@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "835030458257",
+    "firebase_url": "https://greenfarmbooth.firebaseio.com",
+    "project_id": "greenfarmbooth",
+    "storage_bucket": "greenfarmbooth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835030458257:android:6fffa486a9390de6",
+        "android_client_info": {
+          "package_name": "com.courr.dongseob.greenfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835030458257-0h431od1gfo61pgg884jc7p31747sqo0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.courr.dongseob.greenfarm",
+            "certificate_hash": "c75ea518322edf5e1a1312e94dbb59edb624ef0f"
+          }
+        },
+        {
+          "client_id": "835030458257-vvs8kh0em5aktvrast0r65f14kappi5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjmpDfCQyeWW95jHcMr-RHjLY3JBMcCb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835030458257-vvs8kh0em5aktvrast0r65f14kappi5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

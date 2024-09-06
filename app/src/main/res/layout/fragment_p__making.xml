@@ -1,0 +1,241 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/bt_pget"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/silhouette2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/bt_p1"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/bt_p2"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/bt_p3"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light">
+
+                <Button
+                    android:id="@+id/bt_tp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="#004a63"
+                    android:text="미니 꽃다발"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/bt_tp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="#004a63"
+                    android:text="디퓨저"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/bt_tp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="#004a63"
+                    android:text="가습기"
+                    android:textColor="@android:color/background_light"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/bt_p4"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:id="@+id/bt_p5"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/bt_p6"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light">
+
+                <Button
+                    android:id="@+id/bt_tp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:text="로즈 미스트"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/bt_tp5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:text="친환경 자동차"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/bt_tp6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="#4a4a4a"
+                    android:text="천연비누"
+                    android:textColor="@android:color/background_light" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/bt_p7"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:id="@+id/bt_p8"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/bt_p9"
+                    android:layout_width="50dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light">
+
+                <Button
+                    android:id="@+id/bt_tp7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="#4a4a4a"
+                    android:text="천연향초"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/bt_tp8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:background="#777777"
+                    android:text="테라리움"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/bt_tp9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="0.1dp"
+                    android:layout_weight="1"
+                    android:text="COURR" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/bt_pin"
+                    android:layout_width="50dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/map" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
